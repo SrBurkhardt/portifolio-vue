@@ -1,24 +1,25 @@
 <template>
-    <div class="inicialContainer">
-        <h1>CONHECIMENTO</h1>
+    <div class="Container">
+        <h1>Projetos</h1>
     </div>
 </template>
-
 <script>
-export default {
-    name: 'ConhecimentoComponent'
-}
-</script>
 
+export default {
+    name: 'ProjetosComponents'
+}
+
+</script>
 <style>
-.inicialContainer {
+.Container {
+    background-color: #eee;
     position: absolute;
     width: 80%;
     height: 100vh;
     right: 0;
     top: 0;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 </style>

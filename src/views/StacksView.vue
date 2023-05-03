@@ -1,19 +1,19 @@
 <template>
-    <div class="home">
+    <div>
       <NavBar />
-      <ConhecimentoComponent />
+      <StacksComponent />
     </div>
   </template>
   
   <script>
   import NavBar from '@/components/Nav.vue'
-  import ConhecimentoComponent from '@/components/Conhecimento.vue'
+  import StacksComponent from '@/components/Stacks.vue'
   
   export default {
-    name: 'ConhecimentoView',
+    name: 'StacksView',
     components: {
       NavBar,
-      ConhecimentoComponent
+      StacksComponent
     }
   }
   </script>

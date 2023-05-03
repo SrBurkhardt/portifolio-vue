@@ -7,10 +7,13 @@
                     <router-link to="/" class="linksIniciais" exact-active-class="link-ativo">Home</router-link>
                 </li>
                 <li>
-                    <router-link to="/conhecimento" class="linksIniciais" exact-active-class="link-ativo">Conhecimento</router-link>
+                    <router-link to="/stacks" class="linksIniciais" exact-active-class="link-ativo">Stacks</router-link>
                 </li>
                 <li>
-                    <a href="#projetos" class="linksIniciais">Projetos</a>
+                    <router-link to="/projetos" class="linksIniciais" exact-active-class="link-ativo">Projetos</router-link>
+                </li>
+                <li>
+                    <a href="#projetos" class="linksIniciais">Certificados</a>
                 </li>
                 <li>
                     <a href="#contato" class="linksIniciais">Contato</a>
@@ -67,7 +70,7 @@ export default {
     align-items: center;
     justify-content: center;
     color: #fff;
-    position: relative;
+    position: fixed;
 }
 .perfil {
     width: 50%;
