@@ -42,7 +42,7 @@
     }
   }
 </script>
-<style>
+<style scoped>
 .inicialContainer {
     position: absolute;
     width: 80%;

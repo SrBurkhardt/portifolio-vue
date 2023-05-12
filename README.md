@@ -32,3 +32,12 @@ git commit -m "first commit"
 git branch -M master
 git remote add origin https://github.com/SrBurkhardt/portifolio-vue.git
 git push -u origin master
+
+
+### Commits
+
+primeiro commit: Foi feito a pagina inicial
+
+commit cards: foi feito a pagina Stacks, e o card com os stacks de uma forma bruta
+
+commit projetos: neste commit foi implementado os cards, e dado inicio a pagina projetos

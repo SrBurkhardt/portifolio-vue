@@ -20,6 +20,7 @@
 }
 body {
   position: relative;
+  background-color: #eee;
 }
 .container {
   width: 100%;

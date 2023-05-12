@@ -13,7 +13,7 @@
                     <router-link to="/projetos" class="linksIniciais" exact-active-class="link-ativo">Projetos</router-link>
                 </li>
                 <li>
-                    <a href="#projetos" class="linksIniciais">Certificados</a>
+                    <router-link to="/certificados" class="linksIniciais" exact-active-class="link-ativo">Certificados</router-link>
                 </li>
                 <li>
                     <a href="#contato" class="linksIniciais">Contato</a>
@@ -23,17 +23,17 @@
             <ul class="navFooter">
                 <li>
                     <a href="#linkedin">
-                        <img :src="linkedin" alt="linkedin" class="icon"/>
+                        <img :src="linkedin" alt="linkedin" class="icon-footer"/>
                     </a>
                 </li>
                 <li>
                     <a href="#instagram">
-                        <img :src="instagram" alt="instagram" class="icon"/>
+                        <img :src="instagram" alt="instagram" class="icon-footer"/>
                     </a>
                 </li>
                 <li>
                     <a href="#github">
-                        <img :src="github" alt="github" class="icon"/>
+                        <img :src="github" alt="github" class="icon-footer"/>
                     </a>
                 </li>
             </ul>
@@ -60,7 +60,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .navbar {
     width: 20%;
     height: 100vh;
@@ -90,10 +90,6 @@ li {
     align-items: center;
     justify-content: center;
     width: 100%;
-}
-li:hover {
-    background-color: rgb(0, 106, 172);
-    transition: 2s;
 }
 
 .linksIniciais {
@@ -131,7 +127,7 @@ footer {
     justify-content: center;
     padding: 10px;
 }
-.icon {
+.icon-footer {
     width: 32px;
     margin: 0 10px;
 }

@@ -1,6 +1,5 @@
 <template>
     <div class="Container">
-        <PreLoader color="red" scale="0.6" />
         <img :src="euy" alt="euy" class="euy"/>
         <h1 class="front">Front End</h1>
         <h1 class="dev">Developer</h1>
@@ -26,7 +25,6 @@
 </template>
 
 <script>
-import PreLoader from '@/components/Preloader.vue'
 import euy from '@/assets/euy.png'
 import linkedin from '../assets/linkedin.png'
 import instagram from '../assets/instagram.png'
@@ -35,9 +33,6 @@ import github from '../assets/github.png'
 
 export default {
     name: 'HomeComponent',
-    components: {
-        PreLoader
-    },
     data(){
         return{
             euy: euy,
@@ -49,7 +44,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .Container {
     background-color: #eee;
     position: absolute;
@@ -62,7 +57,7 @@ export default {
     justify-content: center;
 }
 .euy {
-    width: 39%;
+    width: 38%;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -86,5 +81,9 @@ export default {
     display: flex;
     width: 30%;
     margin: 20px 0 0 50px;
+}
+.icon {
+    width: 32px;
+    margin: 0 10px;
 }
 </style>
