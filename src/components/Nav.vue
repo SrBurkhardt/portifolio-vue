@@ -16,23 +16,23 @@
                     <router-link to="/certificados" class="linksIniciais" exact-active-class="link-ativo">Certificados</router-link>
                 </li>
                 <li>
-                    <a href="#contato" class="linksIniciais">Contato</a>
+                    <router-link to="/contato" class="linksIniciais" exact-active-class="link-ativo">Contato</router-link>
                 </li>
             </ul>
         <footer>
             <ul class="navFooter">
                 <li>
-                    <a href="#linkedin">
+                    <a href="https://www.linkedin.com/in/regione-burkhardt/" target="_blank">
                         <img :src="linkedin" alt="linkedin" class="icon-footer"/>
                     </a>
                 </li>
                 <li>
-                    <a href="#instagram">
+                    <a href="https://www.instagram.com/regioneburkhardt/" target="_blank">
                         <img :src="instagram" alt="instagram" class="icon-footer"/>
                     </a>
                 </li>
                 <li>
-                    <a href="#github">
+                    <a href="https://github.com/SrBurkhardt" target="_blank">
                         <img :src="github" alt="github" class="icon-footer"/>
                     </a>
                 </li>

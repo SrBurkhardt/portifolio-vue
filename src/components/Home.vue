@@ -6,17 +6,17 @@
         <p class="frase">Transforme suas ideias em realidade! Desenvolvimento front-end de alto nível com HTML5, CSS3, JavaScript, Vue e React! </p>
         <ul class="redes">
             <li>
-                <a href="#linkedin">
+                <a href="https://www.linkedin.com/in/regione-burkhardt/" target="_blank">
                     <img :src="linkedin" alt="linkedin" class="icon"/>
                 </a>
             </li>
             <li>
-                <a href="#instagram">
+                <a href="https://www.instagram.com/regioneburkhardt/" target="_blank">
                     <img :src="instagram" alt="instagram" class="icon"/>
                 </a>
             </li>
             <li>
-                <a href="#github">
+                <a href="https://github.com/SrBurkhardt" target="_blank">
                     <img :src="github" alt="github" class="icon"/>
                 </a>
             </li>

@@ -68,7 +68,16 @@ import FullScreenImage from '@/components/FullScreen.vue'
     padding: 5px;
     background-color: aliceblue;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .5);
+    animation: certificado 0.5s;
 }
+@keyframes certificado {
+    from {
+        transform: translatey(-100%);
+    }
+    to {
+        transform: translatey(0);
+    }
+  }
 .certificado> .img{
     width: 100%;
 }
